@@ -7,12 +7,16 @@
            revision="refs/heads/lineage-22.1" />
 
   <!-- AOSP additions -->
+  <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" remote="LineageOS" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" remote="LineageOS" />
   <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="LineageOS" />
   <project path="external/cronet" name="LineageOS/android_external_cronet" groups="pdk" remote="LineageOS" />
   <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="LineageOS" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="LineageOS" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="LineageOS" />
+  <project path="external/kotlinc" name="LineageOS/android_external_kotlinc" groups="pdk" remote="LineageOS" />
+  <project path="external/kotlinx.coroutines" name="LineageOS/android_external_kotlinx.coroutines" groups="pdk" remote="LineageOS" />
+  <project path="external/kotlinx.serialization" name="LineageOS/android_external_kotlinx.serialization" groups="pdk" remote="LineageOS"/>
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="LineageOS" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="LineageOS" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" />
@@ -33,6 +37,7 @@
   <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" groups="pdk" remote="LineageOS" />
   <project path="hardware/st/nfc" name="LineageOS/android_hardware_st_nfc" groups="pdk" remote="LineageOS" />
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" remote="LineageOS" />
+  <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="LineageOS" />
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="LineageOS" />
   <project path="packages/modules/Bluetooth" name="LineageOS/android_packages_modules_Bluetooth" groups="pdk" remote="LineageOS" />
   <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
